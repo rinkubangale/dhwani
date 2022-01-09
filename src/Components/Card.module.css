@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.container>div {
+    text-align: start;
+    align-self: center;
+}
+
+div>img {
+    width: 20px;
+    cursor: pointer;
+}
